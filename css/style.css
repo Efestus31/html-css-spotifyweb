@@ -40,6 +40,14 @@
         width: 100%;
     }
 
+    ul{
+        list-style: none;
+        line-height: 2rem;
+    }
+    hr{
+        width: 150px;
+    }
+
     /* #endregion common */
     a {
         background-color: var(--sptfy-mid-dark);
@@ -58,6 +66,7 @@
     }
     .txt_light{
         color: var(--sptfy-lighter);
+        line-height: 20px;
     }
     .bg_dark{
         background-color: var(--sptfy-light-dark);
@@ -80,6 +89,7 @@
     flex-direction: column;
     width: 245px;
     height: calc(100vh - 10vh);
+    padding-left: 1rem;
 }
 
 .logo {
@@ -88,11 +98,24 @@
     padding: .5rem;
 
 }
+.playlist{
+    padding-top: 2rem;
+}
+.fa-plus{
+    padding: 0.9rem;
+    background-color: rgba(245, 245, 245, 0.226);
+    color: var(--sptfy-light-dark);
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.bottom_sidebar{
+    margin-top: 18.5rem;
+}
 
 
 /* #endregion side bar */
 
-/* #region up bar */
+/* #region top bar */
 .up_bar {
     height: 10vh;
     width: 100%;
@@ -113,7 +136,7 @@
     font-size: .5rem;
 }
 
-/* #endregion up bar */
+/* #endregion top bar */
 
 
 
@@ -137,3 +160,5 @@
 }
 
 /* #endregion player*/
+
+/* region responsive */
