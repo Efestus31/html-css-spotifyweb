@@ -178,7 +178,7 @@
 
     .row{
         display: flex;
-        flex-wrap:
+        flex-wrap: wrap;
     }
 
 
@@ -199,8 +199,14 @@
 /* region responsive */
 
 
-@media only screen and (min-width: 992px) {
+@media screen and (max-width: 700px) {
     .col-md-4 {
-        width: calc(100% / 4);
+        width: calc((100% / 12) * 4);
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .col-sm-6 {
+        width: calc((100% / 12) * 6);
     }
 }
