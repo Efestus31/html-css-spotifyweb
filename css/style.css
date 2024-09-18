@@ -36,7 +36,9 @@
     a {
         text-decoration: none;
     }
-    image{
+    img{
+        max-width: 100%;
+        display: block; margin: auto;
         
     }
 
@@ -192,6 +194,14 @@
 
 
 }
+
+    .resize{
+        height: 200px;
+        width: 200px;
+        border: none;
+        border-radius: 99999999px;
+    
+    }
 
 /* #endregion content */
 
