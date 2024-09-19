@@ -5,6 +5,16 @@
     box-sizing: border-box;
     font-size: 1rem;
 }
+body{
+    overflow: hidden;
+    
+}
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <400>;
+    font-style: normal;
+  }
 
 main {
     display: flex;
@@ -25,6 +35,7 @@ hr {
 img {
     margin: 0;
 }
+
 
 :root {
     --sptfy-primary: #ffffff;
@@ -63,6 +74,10 @@ img {
 
 .col-2 {
     width: calc((100% / 12) * 2);
+
+}
+.col-8{
+    width: calc((100% / 12) * 8);
 
 }
 
@@ -127,12 +142,13 @@ a {
 
 /* #region side bar */
 
-.side_bar {
+.sidebar_up {
     display: flex;
     flex-direction: column;
     width: 245px;
     height: calc(100vh - 10vh);
     padding-left: 1rem;
+    align-items:normal;    
 }
 
 .logo {
@@ -143,7 +159,7 @@ a {
 }
 
 .playlist {
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .fa-plus {
@@ -155,22 +171,19 @@ a {
 }
 
 .side_bar {
-    position: relative;
     min-height: 100%;
+    
 }
 
 .bottom_sidebar {
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin: 0;
 
-
+    
+    
 }
 
 .profile {
-    margin-top: 3px;
     background-color: var(--sptfy-light);
-    padding: 15px;
     border-radius: 50px;
 }
 
@@ -205,7 +218,12 @@ a {
 .upgrade:hover {
     font-size: .5rem;
 }
-
+.line:hover{
+    text-decoration: underline;
+  text-decoration-color: rgb(157, 255, 0);
+  -moz-text-decoration-color: rgb(157, 255, 0);
+  text-decoration-thickness: 5px;
+}
 /* #endregion top bar */
 
 
@@ -214,7 +232,7 @@ a {
 /* #region content */
 
 .content {
-    height: 5000px;
+    height: 100Vh;
     width: 100%;
     overflow-y: scroll;
 
@@ -222,7 +240,7 @@ a {
 }
 
 .container {
-    width: 80%;
+    width: 100%;
 
     .recent {
         color: #ffffff;
@@ -233,8 +251,15 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
+    .row2{
+        display: flex;
+        
+    }
 
 
+}
+.song-info{
+    text-align: center;
 }
 
 .b-p {

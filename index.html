@@ -12,68 +12,78 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- fontawsome  -->
+
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <!-- favicon -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- google font -->
+
 </head>
 
-<body class="debug">
+<body class="debug montserrat-font">
+    
     <div class="wrap">
+        <div class="sidebar">
+            <div class="sidebar_up bg_secondary">
 
-        <div class="side_bar bg_secondary">
-
-            <div class="logo txt_grey  ">
-                <a href="www.google.it"><img height="40px" src="assets/img/logo.svg" alt="Logo"></a>
-            </div>
-
-            <div class="logo2">
-                <a href="#"><img height="40px" src="./assets/img/logo-small.svg" alt=""></a>
-            </div>
-
-            <div class="home m-0 light-up">
-                <img class="resize-s" height="18px" src="./assets/img/home.svg" alt=""></i>
-                <div class="txt_grey light-up">Home</div>
-            </div>
-
-            <div class="search m-0 light-up">
-                <img class="resize-s" height="18px" src="./assets/img/search.svg" alt="">
-                <div class="txt_grey light-up">Cerca</div>
-            </div>
-
-            <div class="library m-0 light-up">
-                <img class="resize-s" height="18px" src="./assets/img/libreria.svg" alt="">
-                <div class="txt_grey light-up">La tua libreria</div>
-            </div>
-
-            <div class="playlist">
-                <div class="txt_grey">
-                    <h2>PLAYLIST</h2>
+                <div class="logo txt_grey  ">
+                    <a href="www.google.it"><img height="40px" src="assets/img/logo.svg" alt="Logo"></a>
                 </div>
 
-                <ul>
-                    <li>
-                        <div class="txt_grey light-up"><i class="fa-solid fa-plus"></i> Crea Playlist</div>
-                    </li>
-                    <li>
+                <div class="logo2">
+                    <a href="#"><img height="40px" src="./assets/img/logo-small.svg" alt=""></a>
+                </div>
+
+                <div class="home m-0 light-up">
+                    <a href="#"><img class="resize-s" height="18px" src="./assets/img/home.svg" alt=""></i> <div class="txt_grey light-up">Home</div></a>
+                    
+                </div>
+
+                <div class="search m-0 light-up">
+                    <a href="#"> <img class="resize-s" height="18px" src="./assets/img/search.svg" alt=""><div class="txt_grey light-up">Cerca</div></a>
+                    <div class="txt_grey light-up">Cerca</div>
+                </div>
+
+                <div class="library m-0 light-up">
+                    <a href="#"> <img class="resize-s" height="18px" src="./assets/img/libreria.svg" alt=""> <div class="txt_grey light-up">La tua libreria</div> </a>
+                    
+                </div>
+
+                <div class="playlist">
+                    <div class="txt_grey">
+                        <h2>PLAYLIST</h2>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <div class="txt_grey light-up"><i class="fa-solid fa-plus"></i> Crea Playlist</div>
+                        </li>
+                        <li>
+                            <div class="txt_grey light-up">Nome Playlist</div>
+                        </li>
+                        <li>
+                            <div class="txt_grey light-up">Nome Playlist</div>
+                        </li>
+                        <li>
+                            <div class="txt_grey light-up">Nome Playlist</div>
+                        </li>
+                        <li>
+                            <div class="txt_grey light-up">Nome Playlist</div>
+                        </li>
                         <div class="txt_grey light-up">Nome Playlist</div>
-                    </li>
-                    <li>
-                        <div class="txt_grey light-up">Nome Playlist</div>
-                    </li>
-                    <li>
-                        <div class="txt_grey light-up">Nome Playlist</div>
-                    </li>
-                    <li>
-                        <div class="txt_grey light-up">Nome Playlist</div>
-                    </li>
-                    <div class="txt_grey light-up">Nome Playlist</div>
-                    </li>
-                    <li>
-                        <div class="txt_grey light-up">Nome Playlist</div>
-                    </li>
-                    <li>
-                        <div class="txt_grey light-up">Nome Playlist</div>
-                    </li>
-                </ul>
+                        </li>
+                        <li>
+                            <div class="txt_grey light-up">Nome Playlist</div>
+                        </li>
+                        <li>
+                            <div class="txt_grey light-up">Nome Playlist</div>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="bottom_sidebar">
@@ -81,7 +91,7 @@
                     <div class="txt_grey light-up"> <i class="fa-solid fa-circle-arrow-down"></i> Installa app</div>
                     <hr>
                     <img class="profile" height="18px" src="./assets/img/profile.svg" alt=""> <strong
-                        class="txt_grey txt-ctr light-up">Jhon Doe</strong>
+                        class="txt_grey light-up">Jhon Doe</strong>
 
                 </div>
             </div>
@@ -98,118 +108,148 @@
             <div class="content bg_light_dark d_flex">
                 <div class="container">
                     <div class="row">
-                        <div class="col-2 col-md-4 col-sm-6">
+                        <div class="col-2 col-md-4 col-sm-6 line">
                             <span class="txt_grey light-up">IN EVIDENZA</span>
                         </div>
-                        <div class="col-2 col-md-4 col-sm-6">
+                        <div class="col-2 col-md-4 col-sm-6 line">
                             <span class="txt_grey light-up">PODCAST</span>
                         </div>
-                        <div class="col-2 col-md-4 col-sm-6">
+                        <div class="col-2 col-md-4 col-sm-6 line">
                             <span class="txt_grey light-up">CLASSIFICHE</span>
                         </div>
-                        <div class="col-2 col-md-4 col-sm-6">
+                        <div class="col-2 col-md-4 col-sm-6 line">
                             <span class="txt_grey light-up">GENERI E MOOD</span>
                         </div>
-                        <div class="col-2 col-md-4 col-sm-6">
+                        <div class="col-2 col-md-4 col-sm-6 line">
                             <span class="txt_grey light-up">NUOVE USCITE</span>
                         </div>
-                        <div class="col-2 col-md-4 col-sm-6">
+                        <div class="col-2 col-md-4 col-sm-6 line">
                             <span class="txt_grey light-up">SCOPRI</span>
                         </div>
-
-                        <h2 class="txt_light mix-art">Recently played</h2>
-                        <div class="row">
-                            <div class="col-2 col-md-4 col-sm-6 b-p">
-                                <img src="./assets/img/metal_lifting.jpg" alt="">
-                                <h3 class="txt_light">Heavy Metal</h3>
-                                <span class="txt_grey">Subtitle</span>
-
-                            </div>
-                            <!-- /.col-2 col-md-4 col-sm-6 -->
-                            <div class="col-2 col-md-4 col-sm-6 b-p">
-                                <img src="./assets/img/stranger.jpeg" alt="">
-                                <h3 class="txt_light">Stranger Thing, Vol.1 <span class="dnone">(a Netflix Original
-                                        Series Soundtrack)</span></h3>
-                                <span class="txt_grey">Kyle Dixon & Michael Stein</span>
-                            </div>
-                            <!-- /.col-2 col-md-4 col-sm-6 -->
-                            <div class="col-2 col-md-4 col-sm-6 b-p">
-                                <img src="./assets/img/aquietplace.jpeg" alt="">
-                                <h3 class="txt_light">A quiet place</h3>
-                                <span class="txt_grey">Subtitle</span>
-                            </div>
-                            <!-- /.col-2 col-md-4 col-sm-6 -->
-                            <div class="col-2 col-md-4 col-sm-6 b-p">
-                                <img src="./assets/img/split.jpeg" alt="">
-                                <h3 class="txt_light">Split</h3>
-                                <span class="txt_grey">Subtitle</span>
-                            </div>
-                            <!-- /.col-2 col-md-4 col-sm-6 -->
-                            <div class="col-2 col-md-4 col-sm-6 b-p">
-                                <img src="./assets/img/cure.jpeg" alt="">
-                                <h3 class="txt_light">A cure for wellness</h3>
-                                <span class="txt_grey">Subtitle</span>
-                            </div>
-                            <!-- /.col-2 col-md-4 col-sm-6 -->
-                            <div class="col-2 col-md-4 col-sm-6 b-p">
-                                <img src="./assets/img/sinister.jpeg" alt="">
-                                <h3 class="txt_light">Sinister</h3>
-                                <span class="txt_grey">Subtitle</span>
-                            </div>
-                            <!-- /.col-2 -->
-                        </div>
-                        <!-- /.row -->
-                        <h2 class="txt_light mix-art">Creato per John Doe</h2>
-                        <div class="tips">
-                            <div class="txt_grey dnone">Pi&ugrave; ascolti, pi&ugrave; accurati saranno i suggerimenti
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2 col-md-4 col-sm-6 b-p">
-                                <img src="./assets/img/radar.jpeg" alt="">
-                                <h3 class="txt_light">Release Radar</h3>
-                            </div>
-                            <!-- /.col-2 -->
-                            <div class="col-2 col-md-4 col-sm-6 b-p">
-                                <img src="./assets/img/mixdaily.jpeg" alt="">
-                                <h3 class="txt_light">Daily Mix 1</h3>
-
-
-                            </div>
-                            <!-- /.col-2 -->
-                        </div>
-                        <!-- /.row -->
-                        <h2 class="txt_light mix-art">Artisti pi&ugrave; popolari</h2>
-                        <div class="tips">
-                            <div class="txt_grey dnone">Pi&ugrave; ascolti, pi&ugrave; accurati saranno i suggerimenti
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2 b-p">
-                                <img class="resize" src="./assets/img/youg.jpeg" alt="">
-                                <h3 class="txt_light">Lana Del Rey</h3>
-
-                            </div>
-                            <!-- /.col-2 -->
-                            <div class="col-2 b-p">
-                                <img class="resize" src="./assets/img/einaudi.jpeg" alt="">
-                                <h3 class="txt_light">Einaudi</h3>
-
-                            </div>
-                            <!-- /.col-2 -->
-                        </div>
-                        <!-- /.row -->
                     </div>
-                    <!-- /.container -->
 
+                    <span class="txt_light h2">Recently played</span>
+                    <div class="row">
+                        <div class="col-2 col-md-4 col-sm-6 b-p">
+                            <img src="./assets/img/metal_lifting.jpg" alt="">
+                            <h3 class="txt_light song-info">Heavy Metal</h3>
+                            <span class="txt_grey song-info">Subtitle</span>
+
+                        </div>
+                        <!-- /.col-2 col-md-4 col-sm-6 -->
+                        <div class="col-2 col-md-4 col-sm-6 b-p">
+                            <img src="./assets/img/stranger.jpeg" alt="">
+                            <h3 class="txt_light song-info">Stranger Thing, Vol.1 <span class="dnone">(a Netflix
+                                    Original
+                                    Series Soundtrack)</span></h3>
+                            <span class="txt_grey song-info">Kyle Dixon & Michael Stein</span>
+                        </div>
+                        <!-- /.col-2 col-md-4 col-sm-6 -->
+                        <div class="col-2 col-md-4 col-sm-6 b-p">
+                            <img src="./assets/img/aquietplace.jpeg" alt="">
+                            <h3 class="txt_light song-info">A quiet place</h3>
+                            <span class="txt_grey song-info">Subtitle</span>
+                        </div>
+                        <!-- /.col-2 col-md-4 col-sm-6 -->
+                        <div class="col-2 col-md-4 col-sm-6 b-p">
+                            <img src="./assets/img/split.jpeg" alt="">
+                            <h3 class="txt_light song-info">Split</h3>
+                            <span class="txt_grey song-info">Subtitle</span>
+                        </div>
+                        <!-- /.col-2 col-md-4 col-sm-6 -->
+                        <div class="col-2 col-md-4 col-sm-6 b-p">
+                            <img src="./assets/img/cure.jpeg" alt="">
+                            <h3 class="txt_light song-info">A cure for wellness</h3>
+                            <span class="txt_grey song-info">Subtitle</span>
+                        </div>
+                        <!-- /.col-2 col-md-4 col-sm-6 -->
+                        <div class="col-2 col-md-4 col-sm-6 b-p">
+                            <img src="./assets/img/sinister.jpeg" alt="">
+                            <h3 class="txt_light song-info">Sinister</h3>
+                            <span class="txt_grey song-info">Subtitle</span>
+                        </div>
+                        <!-- /.col-2 -->
+                    </div>
+                    <!-- /.row -->
+                    <span class="txt_light h2">Creato per John Doe</span>
+                    <div class="tips">
+                        <div class="txt_grey dnone">Pi&ugrave; ascolti, pi&ugrave; accurati saranno i suggerimenti
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 col-md-4 col-sm-6 b-p">
+                            <img src="./assets/img/radar.jpeg" alt="">
+                            <h3 class="txt_light song-info">Release Radar</h3>
+                        </div>
+                        <!-- /.col-2 -->
+                        <div class="col-2 col-md-4 col-sm-6 b-p">
+                            <img src="./assets/img/mixdaily.jpeg" alt="">
+                            <h3 class="txt_light song-info">Daily Mix 1</h3>
+
+
+                        </div>
+                        <!-- /.col-2 -->
+                    </div>
+                    <!-- /.row -->
+                    <span class="txt_light h2">Artisti pi&ugrave; popolari</span>
+                    <div class="tips">
+                        <div class="txt_grey dnone">Pi&ugrave; ascolti, pi&ugrave; accurati saranno i suggerimenti
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 b-p">
+                            <img class="resize" src="./assets/img/youg.jpeg" alt="">
+                            <h3 class="txt_light song-info">Lana Del Rey</h3>
+
+                        </div>
+                        <!-- /.col-2 -->
+                        <div class="col-2 b-p">
+                            <img class="resize" src="./assets/img/einaudi.jpeg" alt="">
+                            <h3 class="txt_light song-info">Einaudi</h3>
+
+                        </div>
+                        <!-- /.col-2 -->
+                    </div>
+                    <!-- /.row -->
                 </div>
+                <!-- /.container -->
 
-        </main>
+            </div>
     </div>
+    </main>
 
+    <footer>
     <div class="player bg_mid_dark">
+        <div class="container">
+            <div class="row-2">
+                <div class="col-2">
+                    <div class="song">
+                        <img height="40px" src="./assets/img/sinister.jpeg" alt="">
+                        <div class="song-name txt_light"> Sinister</div>
+                        <div class="song-name txt_grey">Brano Nome</div>
+                        <!-- /.song-name -->
+                         <div class="heart txt_grey"><i class="fa-regular fa-heart"></i></div>
+                         <!-- /.heart -->
+                         <div class="folder txt_grey"><i class="fa-regular fa-folder"></i></div>
+                         <!-- /.folder -->
+
+                    </div>
+                    <!-- /.song -->
+                </div>
+                <!-- /.col-2 -->
+                <div class="col-8">
+                    
+                </div>
+                <!-- /.col-8 -->
+                <div class="col-2"></div>
+                <!-- /.col-2 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
 
     </div>
+</footer>
 
 
 
