@@ -14,7 +14,7 @@ body{
     font-optical-sizing: auto;
     font-weight: <400>;
     font-style: normal;
-  }
+}
 
 main {
     display: flex;
@@ -31,11 +31,6 @@ ul {
 hr {
     width: 160px;
 }
-
-img {
-    margin: 0;
-}
-
 
 :root {
     --sptfy-primary: #ffffff;
@@ -56,7 +51,11 @@ img {
     max-width: 100%;
     display: block;
     margin: auto;
+    margin: 0;
 
+}
+main{
+    overflow-y: hidden;
 }
 
 .debug * {
@@ -91,6 +90,9 @@ img {
 
 .m-0 {
     margin: 0;
+}
+.h2{
+    padding: 1.5rem
 }
 
 
@@ -147,8 +149,8 @@ a {
     flex-direction: column;
     width: 245px;
     height: calc(100vh - 10vh);
-    padding-left: 1rem;
-    align-items:normal;    
+    padding-left: 1rem;  
+    
 }
 
 .logo {
@@ -160,6 +162,7 @@ a {
 
 .playlist {
     padding-top: 1rem;
+    
 }
 
 .fa-plus {
@@ -234,7 +237,6 @@ a {
 .content {
     height: 100Vh;
     width: 100%;
-    overflow-y: scroll;
 
 
 }
@@ -260,6 +262,7 @@ a {
 }
 .song-info{
     text-align: center;
+    font-size: 14px;
 }
 
 .b-p {
@@ -273,6 +276,9 @@ a {
     border: none;
     border-radius: 99999999px;
 
+}
+.txt-size{
+    font-size: 13px;
 }
 
 /* #endregion content */
