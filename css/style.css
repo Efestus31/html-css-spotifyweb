@@ -295,10 +295,15 @@ padding-left: 1rem;
     width: 100%;
 
 }
-.row2{
+.row-2{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 
+}
+
+.time{
+    
 }
 .song{
     padding-top: .6rem;
@@ -316,7 +321,14 @@ padding-left: 1rem;
 }
 .nav-player{
     display:flex;
+    align-items: center;
+    .p{
+        padding: 1rem;
+        padding-bottom: 5rem;
+        padding-left: 3rem;
+    }
 }
+
 
 /* #endregion player*/
 
