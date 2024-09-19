@@ -49,7 +49,7 @@
                     <a href="#"> <img class="resize-s" height="18x" src="./assets/img/search.svg" alt="">
                         <div class="txt_grey light-up">Cerca</div>
                     </a>
-                    
+
                 </div>
 
                 <div class="library m-0 light-up">
@@ -81,7 +81,7 @@
                             <div class="txt_grey light-up">Nome Playlist</div>
                         </li>
                         <li>
-                        <div class="txt_grey light-up">Nome Playlist</div>
+                            <div class="txt_grey light-up">Nome Playlist</div>
                         </li>
                         <li>
                             <div class="txt_grey light-up">Nome Playlist</div>
@@ -146,7 +146,8 @@
                         <!-- /.col-2 col-md-4 col-sm-6 -->
                         <div class="col-2 col-md-4 col-sm-6 b-p">
                             <img src="./assets/img/stranger.jpeg" alt="">
-                            <h3 class="txt_light song-info">Stranger Thing, Vol.1 <span class="dnone">(a Netflix Original Series Soundtrack)</span></h3>
+                            <h3 class="txt_light song-info">Stranger Thing, Vol.1 <span class="dnone">(a Netflix
+                                    Original Series Soundtrack)</span></h3>
                             <span class="txt_grey song-info">Kyle Dixon & Michael Stein</span>
                         </div>
                         <!-- /.col-2 col-md-4 col-sm-6 -->
@@ -227,22 +228,35 @@
         <div class="player bg_mid_dark">
             <div class="container">
                 <div class="row-2">
-                    <div class="col-2">
+                    <div class="col-3">
                         <div class="song">
-                            <img height="40px" src="./assets/img/sinister.jpeg" alt="">
-                            <div class="song-name txt_light"> Sinister</div>
-                            <div class="song-name txt_grey">Brano Nome</div>
+                            <img class="m-lr" height="40px" src="./assets/img/sinister.jpeg" alt="">
+                            <div class="song-name txt_light"> Sinister</div> <br>
+                            <div class="song-artist txt_light">Brano some</div>
                             <!-- /.song-name -->
-                            <div class="heart txt_grey"><i class="fa-regular fa-heart"></i></div>
-                            <!-- /.heart -->
-                            <div class="folder txt_grey"><i class="fa-regular fa-folder"></i></div>
-                            <!-- /.folder -->
-
                         </div>
                         <!-- /.song -->
+                        <div class="heart txt_grey"><i class="fa-regular fa-heart"></i></div>
+                        <!-- /.heart -->
+                        <div class="folder txt_grey"><i class="fa-regular fa-folder"></i></div>
+                        <!-- /.folder -->
+
+
                     </div>
+
                     <!-- /.col-2 -->
                     <div class="col-8">
+                        <div class="nav-player">
+                            <i class="fa-solid fa-shuffle"></i>
+                            <i class="fa-solid fa-backward"></i>
+                            <i class="fa-solid fa-play"></i>
+                            <i class="fa-solid fa-forward"></i>
+                            <i class="fa-solid fa-repeat"></i>
+                        </div>
+
+                        <span>0:25</span>
+                        <input type="range" id="song-timer" name="song-timer" min="0" max="435" value="90" step="1" />
+                        <!-- /.nav-player -->
 
                     </div>
                     <!-- /.col-8 -->

@@ -70,6 +70,9 @@ main{
 .d_flex {
     display: flex;
 }
+.col-3{
+    width: calc((100% / 12) * 3);
+}
 
 .col-2 {
     width: calc((100% / 12) * 2);
@@ -148,7 +151,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 245px;
-    height: calc(100vh - 10vh);
+    height: calc(93.5vh - 10vh);
     padding-left: 1rem;  
     
 }
@@ -180,13 +183,18 @@ a {
 
 .bottom_sidebar {
     margin: 0;
-
+    
+background-color: #000000;
+padding-bottom: 1px;
+padding-left: 1rem;
     
     
 }
 
 .profile {
     background-color: var(--sptfy-light);
+    padding: 3px;
+    
     border-radius: 50px;
 }
 
@@ -253,10 +261,7 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
-    .row2{
-        display: flex;
-        
-    }
+    
 
 
 }
@@ -289,6 +294,28 @@ a {
     height: 10vh;
     width: 100%;
 
+}
+.row2{
+    display: flex;
+    align-items: center;
+
+}
+.song{
+    padding-top: .6rem;
+    img{
+        width: 40px;
+        aspect-ratio: 1 / 1;
+    }
+}
+.m-lr{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.song-artist{
+    font-size: .5rem;
+}
+.nav-player{
+    display:flex;
 }
 
 /* #endregion player*/
