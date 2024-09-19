@@ -303,7 +303,7 @@ padding-left: 1rem;
 }
 
 .time{
-    
+
 }
 .song{
     padding-top: .6rem;
@@ -322,11 +322,20 @@ padding-left: 1rem;
 .nav-player{
     display:flex;
     align-items: center;
-    .p{
-        padding: 1rem;
-        padding-bottom: 5rem;
-        padding-left: 3rem;
-    }
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    
+    
+}
+.p{
+    padding-left: 5rem;
+    
+}
+.b{
+    width: 30rem;
+    
+
 }
 
 
